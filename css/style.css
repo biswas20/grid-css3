@@ -6,15 +6,16 @@
     margin: 0 auto;
     width: 1180px;
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap:20px;
-    grid-column-gap:20px
-  
+    grid-gap:20px
 }
 .box{
-    width: 200px;
+  
     height: 150px;
     background-color: aqua;
    
+}
+.box-1{
+    background: chartreuse;
+    grid-column: 1/span 2;
 }
